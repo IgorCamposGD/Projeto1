@@ -21,3 +21,6 @@ Após seguir esses passos, a aplicação estará disponível em http://localhost
 Endpoints da API:
 GET /usuarios: Retorna uma lista de usuários cadastrados.
 GET /grupos: Retorna uma lista de grupos cadastrados.
+
+http://localhost:8080/usuarios
+http://localhost:8080/grupos
