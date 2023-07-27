@@ -13,11 +13,8 @@ git clone https://github.com/IgorCamposGD/Projeto1.git
 2 - Acesse o diretório do projeto:
 cd Projeto 1
 
-3 - Construa a imagem Docker do projeto:
-docker build -t fastapi-docker .
-
-4 - Inicie o contêiner Docker:
-docker run -d -p 8080:8080 --name projeto1-container fastapi-docker
+3 - Em seguida, você pode executar o comando(deixando-o em execução em segundo plano (-d)):
+docker-compose up -d
 
 Após seguir esses passos, a aplicação estará disponível em http://localhost:8080.
 
