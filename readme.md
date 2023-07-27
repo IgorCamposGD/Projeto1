@@ -8,10 +8,10 @@ Executando o projeto
 Para executar o projeto, siga os seguintes passos:
 
 1 - Clone o repositório para o seu ambiente local:
-git clone https://github.com/IgorCamposGD/Projeto1.git
+git clone https://github.com/IgorCamposGD/ProjetoEndpoints.git
 
 2 - Acesse o diretório do projeto:
-cd Projeto 1
+cd ProjetoEndpoints
 
 3 - Em seguida, você pode executar o comando(deixando-o em execução em segundo plano (deixando-o em execução em segundo plano (-d)):
 docker-compose up -d
