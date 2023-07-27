@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-  fastapi-docker-projeto1:
+  fastapi-docker-endpoints:
     build: 
       context: .
       dockerfile: dockerfile
     ports:
       - 8080:8080
-    container_name: endpoint-container
+    container_name: endpoints-container
