@@ -9,7 +9,7 @@ log = 'D:/DEV/ProjetoEndpoints/endpoints.log'
 endpoint = FastAPI()
 
 #Conexão do banco MONGODB
-c = "mongodb+srv://IgorAraujo:Iaraujo2020@mongodb.a46kimi.mongodb.net/?retryWrites=true&w=majority"
+c = "mongodb+srv://fortics:nXyjK0kp8Uyxs4Xv@mongodb.a46kimi.mongodb.net/?retryWrites=true&w=majority"
 
 try:
     mongo_client = pymongo.MongoClient(c)
