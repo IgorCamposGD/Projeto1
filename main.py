@@ -4,12 +4,12 @@ endpoint = FastAPI()
 
 usuarios = [
     {"id": 1, "nome": "Igor"},
-    {"id": 2, "nome": "Ketly"}
+    {"id": 2, "nome": "Ketly"},
 ]
 
 grupos = [
     {"id": 1, "nome": "Admin"},
-    {"id": 1, "nome": "Usuarios"}
+    {"id": 1, "nome": "Usuarios"},
 ]
 
 @endpoint.get("/grupos", grupos)
