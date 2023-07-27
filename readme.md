@@ -1,4 +1,4 @@
-FastAPI Docker Example
+Projeto Endpoints
 Este é um exemplo de projeto usando o framework FastAPI com suporte a Docker para criação de uma API com dois endpoints simples: /usuarios e /grupos.
 
 Pré-requisitos:
