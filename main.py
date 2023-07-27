@@ -16,6 +16,6 @@ grupos = [
 async def get_grupos():
     return grupos
 
-@endpoint.get("/usuarios" usuarios)
+@endpoint.get("/usuarios", usuarios)
 async def get_users():
     return usuarios
