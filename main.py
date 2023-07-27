@@ -10,7 +10,7 @@ usuarios = [
 
 grupos = [
     {"id": 1, "nome": "Admin"},
-    {"id": 1, "nome": "Usuarios"},
+    {"id": 2, "nome": "Usuarios"},
 ]
 
 @endpoint.get("/grupos", response_model=List[dict])
