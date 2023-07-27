@@ -13,7 +13,7 @@ git clone https://github.com/IgorCamposGD/Projeto1.git
 2 - Acesse o diretório do projeto:
 cd Projeto 1
 
-3 - Em seguida, você pode executar o comando(deixando-o em execução em segundo plano (-d)):
+3 - Em seguida, você pode executar o comando(deixando-o em execução em segundo plano (deixando-o em execução em segundo plano (-d)):
 docker-compose up -d
 
 Após seguir esses passos, a aplicação estará disponível em http://localhost:8080.
